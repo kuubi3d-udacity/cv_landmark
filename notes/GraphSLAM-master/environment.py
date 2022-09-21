@@ -54,3 +54,4 @@ class Environment:
         self.landmarks = [
             (randx(), randy()) for _ in range(self.landmark_count)
         ]
+        return self.landmarks
